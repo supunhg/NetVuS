@@ -5,7 +5,6 @@ import argparse
 # Banner
 def print_banner():
     banner = r"""
-
 _____   __    ________    __              
 ___  | / /______  /__ |  / /___  _________
 __   |/ /_  _ \  __/_ | / /_  / / /_  ___/
