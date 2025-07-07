@@ -2,6 +2,20 @@
 import nmap
 import argparse
 
+# Banner
+def print_banner():
+    banner = r"""
+
+_____   __    ________    __              
+___  | / /______  /__ |  / /___  _________
+__   |/ /_  _ \  __/_ | / /_  / / /_  ___/
+_  /|  / /  __/ /_ __ |/ / / /_/ /_(__  ) 
+/_/ |_/  \___/\__/ _____/  \__,_/ /____/    v2.0
+
+NetVuS - Network Vulnerability Scanner
+"""
+    print(banner)
+
 # Scan Target
 def scan_target(target, ports, os_detect=False, default_scripts=False):
     scanner = nmap.PortScanner()
