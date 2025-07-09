@@ -53,8 +53,6 @@ This project helped me sharpen:
 
 It’s a mini blueprint for practical vulnerability reconnaissance — and a strong first step into my cybersecurity analyst journey.
 
-### Project ID - S0004
-
 ## 📁 Disclaimer
 ### NetVuS is for educational and ethical use only. 
 #### Always scan targets you own or have explicit permission to assess.
